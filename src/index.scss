@@ -1,0 +1,69 @@
+/**
+ * Головний SCSS файл із каскадними шарами (CSS Cascade Layers)
+ * 
+ * @layer base - Базові стилі (reset, body, типографія).
+ * @layer ui - Стилі для основних елементів UI (кнопки, поля вводу тощо).
+ * @layer component - Стилі для компонентів (наприклад, картки, модальні вікна).
+ * @layer section - Стилі для секцій сторінки (хедер, футер тощо).
+ * @layer page - Специфічні стилі для окремих сторінок.
+ * @layer mui - Стилі для кастомізації компонентів Material UI.
+ * @layer overrides - Останній шар з найвищим пріоритетом для перевизначення стилів.
+ * 
+ * Шари допомагають контролювати порядок застосування стилів:
+ * - Base — найнижчий пріоритет (базові стилі).
+ * - Overrides — завжди перемагає, навіть якщо оголошений раніше.
+ */
+
+// Імпортуємо менеджер тем, шрифти та створюємо шари стилів
+@use 'managers/ThemeManager/index';
+@use './scss/fonts';
+@layer base, ui, component, section, page, mui, overrides;
+
+// ==================== MUI ====================
+
+/**
+ * @layer mui
+ */
+@layer mui {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* Приховуємо скроллбар для IE, Edge та Firefox */
+
+    /* IE та Edge */
+    -ms-overflow-style: none;
+
+    /* Firefox */
+    scrollbar-width: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: EuclidCircularA, sans-serif;
+    color: var(--text);
+  }
+
+  /* Приховуємо скроллбар для Chrome, Safari та Opera */
+  *::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Зберігаємо можливість скроллінгу */
+  html,
+  body {
+    scroll-behavior: auto;
+  }
+
+  input,
+  textarea,
+  button,
+  select {
+    font-family: inherit;
+  }
+}

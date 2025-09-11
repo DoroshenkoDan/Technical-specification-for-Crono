@@ -1,0 +1,64 @@
+@use 'react-responsive-tools' as *;
+@use '../../../../../../managers/ThemeManager/colors' as *;
+
+@layer components {
+  .MenuBtn {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 4px 16px;
+    gap: 8px;
+    text-decoration: none;
+    width: 100%;
+    color: var(--text);
+    position: relative;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: var(--text-secondary);
+    }
+
+    &.selected {
+      color: var(--accent-primary);
+
+      .prefixIcon {
+        opacity: 1;
+      }
+    }
+
+    .prefixIcon {
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 3px;
+      height: 100%;
+      opacity: 0;
+      transition: opacity 0.2s ease;
+
+    }
+  }
+
+  .BadgeRoot {
+    display: flex;
+    align-items: center;
+  }
+
+  .CustomBadge {
+    border-radius: 12px;
+    position: relative;
+    padding: 2px 8px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--primary-10);
+    background-color: var(--bg-accent-light-yellow);
+    right: 13px;
+    transform: none;
+  }
+}

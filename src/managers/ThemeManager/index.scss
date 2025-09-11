@@ -1,0 +1,13 @@
+@use 'palette' as themes;
+
+@layer base {
+  body {
+    &.light {
+      @include themes.Light;
+    }
+
+    &.dark {
+      @include themes.Dark;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+import React from 'react';
+
+interface ErrorIconProps {
+  className?: string;
+  size?: number;
+}
+
+const ErrorIcon: React.FC<ErrorIconProps> = ({ className, size = 16 }) => {
+  return (
+    <svg
+      className={className}
+      width={size}
+      height={size}
+      viewBox='0 0 16 16'
+      fill='none'
+      xmlns='http://www.w3.org/2000/svg'
+    >
+      <path
+        d='M8.00051 8.74669V6.25336'
+        stroke='currentColor'
+        strokeWidth='0.96'
+        strokeLinecap='round'
+        strokeLinejoin='round'
+      />
+      <path
+        d='M7.99984 10.75C7.90784 10.75 7.83318 10.8246 7.83384 10.9166C7.83384 11.0086 7.90851 11.0833 8.00051 11.0833C8.09251 11.0833 8.16718 11.0086 8.16718 10.9166C8.16718 10.8246 8.09251 10.75 7.99984 10.75'
+        stroke='currentColor'
+        strokeWidth='0.96'
+        strokeLinecap='round'
+        strokeLinejoin='round'
+      />
+      <path
+        fillRule='evenodd'
+        clipRule='evenodd'
+        d='M9.352 2.75932L14.458 11.6953C15.0513 12.734 14.3013 14.0267 13.1053 14.0267H2.89333C1.69667 14.0267 0.946666 12.734 1.54067 11.6953L6.64667 2.75932C7.24467 1.71198 8.754 1.71198 9.352 2.75932Z'
+        stroke='currentColor'
+        strokeWidth='0.96'
+        strokeLinecap='round'
+        strokeLinejoin='round'
+      />
+    </svg>
+  );
+};
+
+export default ErrorIcon;

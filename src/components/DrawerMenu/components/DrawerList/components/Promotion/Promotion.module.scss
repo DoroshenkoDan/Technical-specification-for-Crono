@@ -1,0 +1,51 @@
+@use 'react-responsive-tools' as *;
+
+@layer components {
+  .Promotion {
+    border-radius: 8px;
+    padding: 8px;
+    margin: 0 4.166667%;
+    background-color: var(--bg-accent-yellow);
+    background-image: url('/icons/PromotionBg.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    position: relative;
+    overflow: hidden;
+
+
+    .text {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: var(--text-secondary);
+      position: relative;
+      z-index: 1;
+    }
+
+    .link {
+      display: flex;
+      align-items: center;
+      width: fit-content;
+      gap: 4px;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      border-radius: 4px;
+      padding: 4px 8px;
+      color: var(--primary-10);
+      text-decoration: none;
+      background-color: var(--bg-accent-light-yellow);
+      transition: all 0.2s ease;
+      position: relative;
+      z-index: 1;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+}

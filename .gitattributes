@@ -1,0 +1,7 @@
+*.png merge=ours
+*.jpg merge=ours
+*.jpeg merge=ours
+*.webp merge=ours
+*.svg merge=ours
+*.gif merge=ours
+* text=auto eol=auto

@@ -1,0 +1,24 @@
+<!doctype html>
+<!-- This is the declaration of the document type, which in this case is HTML5 -->
+<html lang="uk">
+  <head>
+    <!-- The character encoding for the HTML document -->
+    <meta charset="UTF-8" />
+    <!-- Link to an icon file. The type attribute specifies the MIME type of the linked document -->
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <!-- The viewport meta tag gives the browser instructions on how to control the page's dimensions and scaling -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- The title of the document, displayed in the browser's title bar or tab -->
+    <title>Crono</title>
+    <style>
+      @layer base, mui, ui, component, section, page, overrides;
+    </style>
+  </head>
+  <body>
+    <!-- A div element with the id "root". This is where your application's main content will be rendered -->
+    <div id="root"></div>
+    <!-- The script tag is used to embed or reference an executable script. The type attribute specifies the script language -->
+    <!-- The src attribute specifies the URL of the script to be executed. In this case, it's a module script -->
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

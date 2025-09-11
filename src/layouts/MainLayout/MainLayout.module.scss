@@ -1,0 +1,35 @@
+@use 'react-responsive-tools' as b;
+
+@layer base {
+  .MainLayout {
+    display: flex;
+    --main-padding-h: 15px;
+    --main-padding-v: 15px;
+
+    min-height: 100vh;
+    background: var(--bg-10);
+
+    @include b.for-lg {
+      --main-padding-h: 20px;
+      --main-padding-v: 20px;
+    }
+
+    @include b.for-lt {
+      --main-padding-h: 30px;
+      --main-padding-v: 30px;
+    }
+
+    @include b.for-ltm {
+      --main-padding-h: 5vw;
+      --main-padding-v: 10vh;
+    }
+
+    @include b.for-xl {
+      --main-padding-h: 8vw;
+    }
+
+    .inner {
+      padding: 16px;
+    }
+  }
+}

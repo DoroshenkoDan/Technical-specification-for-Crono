@@ -1,0 +1,18 @@
+@use 'react-responsive-tools' as *;
+
+@layer components {
+  .Sales {
+    padding: 12px 4px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+
+    .avatar {
+      width: 32px;
+      height: 32px;
+      background-color: var(--bg-accent-light-blue);
+    }
+  }
+}

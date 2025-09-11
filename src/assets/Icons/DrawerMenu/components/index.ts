@@ -1,0 +1,13 @@
+export { default as ArrowsIcon } from './ArrowsIcon';
+export { default as DashboardIcon } from './DashboardIcon';
+export { default as FindNewIcon } from './FindNewIcon';
+export { default as InboxIcon } from './InboxIcon';
+export { default as ListsIcon } from './ListsIcon';
+export { default as AnalyticsIcon } from './AnalyticsIcon';
+export { default as SalesIcon } from './SalesIcon';
+export { default as SequencesIcon } from './SequencesIcon';
+export { default as TaskIcon } from './TaskIcon';
+export { default as TemplateIcon } from './TemplateIcon';
+export { default as PromotionIcon } from './PromotionIcon';
+export { default as PromotionBgIcon } from './PromotionBgIcon';
+export { default as FlashIcon } from './FlashIcon';

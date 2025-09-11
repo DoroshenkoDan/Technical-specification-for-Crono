@@ -1,0 +1,87 @@
+@use 'react-responsive-tools' as *;
+
+@layer components {
+  .TaskStatusItem {
+    width: 100%;
+    padding: 16px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: relative;
+    min-height: 120px;
+    color: rgb(69, 60, 60);
+    position: relative;
+
+    .header {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      flex: 1;
+      height: 100%;
+      justify-content: space-between;
+    }
+
+    .topRow {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+    }
+
+    .bottomRow {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      color: var(--text-tertiary);
+    }
+
+    .link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-tertiary);
+
+      svg {
+        color: var(--text-tertiary);
+      }
+    }
+
+    .count {
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 40px;
+      margin: 0;
+    }
+
+    .errorBadge {
+      position: absolute;
+      top: 8px;
+      right: 9.5px;
+      background-color: var(--bg-primary);
+      border-radius: 16px;
+      padding: 4px 4px 4px 8px;
+      min-width: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      color: var(--error);
+      gap: 6px;
+
+      span {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+
+      }
+    }
+
+    .status {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+}

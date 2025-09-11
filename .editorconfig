@@ -1,0 +1,17 @@
+# Must use root=true to identify the file as the root EditorConfig file.
+root = true
+
+# General settings for all files
+[*]
+# Sets the line ending character as LF (Unix-style)
+end_of_line = lf
+# Use spaces for indentation
+indent_style = space
+# Tab size - 4 spaces
+indent_size = 4
+# End file with a blank line
+insert_final_newline = true
+
+# Additional settings for files with specific extensions
+[*.{js,jsx,ts,tsx,css,scss,html,json,yml,md}]
+indent_size = 2

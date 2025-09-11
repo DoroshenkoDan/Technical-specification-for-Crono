@@ -1,0 +1,59 @@
+@use 'colors' as *;
+@use 'variables' as *;
+
+@mixin Light {
+  // Primary palette
+  --primary-100: #{$primary-100}; // #000d26
+  --primary-90: #{$primary-90}; // #170845
+  --primary-80: #{$primary-80}; // #242e40
+  --primary-70: #{$primary-70}; // #3d475c
+  --primary-60: #{$primary-60}; // #7a8395
+  --primary-50: #{$primary-50}; // #b0b5bf
+  --primary-40: #{$primary-40}; // #e6e9f2
+  --primary-30: #{$primary-30}; // #f5f7f9
+  --primary-20: #{$primary-20}; // #ffffff
+  --primary-10: #{$primary-10}; // #ffffff
+
+  // Background colors
+  --bg-primary: #{$bg-primary}; // #ffffff
+  --bg-secondary: #{$bg-secondary}; // #f5f7f9
+  --bg-tertiary: #{$bg-tertiary}; // #e6e9f2
+  --bg-50: #{$primary-50}; // #b0b5bf
+  --bg-40: #{$primary-40}; // #e6e8f2
+  --bg-30: #{$primary-30}; // #f5f7fa
+  --bg-20: #{$primary-20}; // #ffffff
+  --bg-10: #{$primary-30}; // #f5f7fa
+
+  // Text colors
+  --text: #{$text-primary}; // #7A8395
+  --text-secondary: #{$text-secondary}; // #010E27
+  --text-tertiary: #{$text-tertiary}; // #3E485B
+  --text-light: #{$text-light}; // #b0b5bf
+  --alt-text: #{$text-white}; // #ffffff
+  --ant-text: #{$text-white}; // #ffffff
+
+  // Accent colors
+  --accent-primary: #{$accent-primary}; // #0A9B94;
+  --accent-secondary: #{$accent-secondary}; // #1EBAB2
+  --accent-tertiary: #{$accent-tertiary}; // #E9F8F8
+  --accent-quaternary: #{$gray-80}; // #F0F4F8
+
+  // Functional colors
+  --warning: #{$warning}; // #C69812
+  --error: #{$error}; // #ED4C5E
+  --info: #{$info}; // #3B85E8
+  --success: #{$success}; // #1A9D6E
+
+  // Background accent colors
+  --bg-accent-teal: #{$bg-accent-teal}; // #e8f7f7
+  --bg-accent-blue: #{$bg-accent-blue}; // #EAF1FB
+  --bg-accent-light-blue: #{$bg-accent-light-blue}; // #e0f2ff
+  --bg-accent-yellow: #{$bg-accent-yellow}; // #FEF3D2
+  --bg-accent-light-yellow: #{$bg-accent-light-yellow}; // #f9bb06
+  --bg-accent-purple: #{$bg-accent-purple}; // #f2c9ff
+  --bg-accent-pink: #{$bg-accent-pink}; // #fce6f7
+  --bg-accent-green: #{$bg-accent-green}; // #E8F5D9
+  --bg-accent-red: #{$bg-accent-red}; // #FFE9E9
+}
+
+@mixin Dark {}

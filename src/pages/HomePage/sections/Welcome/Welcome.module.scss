@@ -1,0 +1,27 @@
+@use 'react-responsive-tools' as *;
+
+@layer section {
+  .Welcome {
+    padding: 24px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    align-items: flex-start;
+
+    h1 {
+      font-family: Poppins;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 30px;
+      color: var(--text-secondary);
+    }
+
+    p {
+      font-family: Poppins;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+}

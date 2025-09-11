@@ -1,0 +1,31 @@
+@use 'react-responsive-tools' as *;
+
+@layer section {
+  .TodayTask {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+
+    .title {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 28px;
+      color: var(--text-primary);
+      margin: 0;
+    }
+
+    .content {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .divider {
+      height: 120px;
+      border-color: var(--bg-tertiary);
+    }
+  }
+}
