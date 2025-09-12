@@ -4,21 +4,20 @@
   .TodayTask {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 8px;
     padding: 16px;
 
     .title {
       font-weight: 600;
-      font-size: 18px;
-      line-height: 28px;
-      color: var(--text-primary);
+      font-size: 14px;
+      line-height: 22px;
+      color: var(--text-secondary);
       margin: 0;
     }
 
     .content {
       display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
+      flex-flow: row nowrap;
       gap: 8px;
       align-items: center;
     }

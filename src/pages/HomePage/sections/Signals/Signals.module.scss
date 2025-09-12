@@ -1,0 +1,70 @@
+@use 'react-responsive-tools' as *;
+
+@layer section {
+  .Signals {
+    padding-top: 16px;
+
+    .header {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 4px;
+      padding: 0 16px;
+      margin-bottom: 12px;
+    }
+
+
+    .BadgeRoot {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .CustomBadge {
+      position: relative;
+      top: none;
+      right: none;
+      transform: none;
+      padding: 4px 8px;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 16px;
+      color: var(--primary-10);
+      background-color: var(--bg-accent-light-yellow);
+    }
+
+    .title {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 22px;
+      color: var(--text-secondary);
+    }
+
+    .subtitle {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+    }
+
+    .contentWrapper {
+      max-height: 332px;
+      overflow: auto;
+
+      >*:not(:first-child) {
+        padding-top: 16px;
+      }
+
+      >*:not(:last-child) {
+        padding-bottom: 16px;
+        border-bottom: 1px solid var(--primary-40);
+      }
+    }
+
+    .content {
+      padding-left: 16px;
+      padding-right: 20px;
+
+
+    }
+  }
+}

@@ -1,5 +1,5 @@
 // ===== BASE COLORS =====
-$white: #ffffff;
+$white: #fff;
 $black: #000d26;
 
 // ===== PRIMARY PALETTE =====
@@ -11,57 +11,54 @@ $primary-60: #7a8294; // Light blue-gray
 $primary-50: #b0b5bf; // Very light blue-gray
 $primary-40: #e6e9f2; // Very light gray-blue
 $primary-30: #f5f7f9; // Almost white blue
-$primary-20: #ffffff; // White
-$primary-10: #ffffff; // White
+$primary-20: #fff; // White
+$primary-10: #fff; // White
 
 // ===== ACCENT COLORS =====
-$accent-primary: #0A9B94; // Teal
-$accent-secondary: #1EBAB2; // Light teal
-$accent-tertiary: #E9F8F8; // Bright teal
+$accent-primary: #0a9b94; // Teal
+$accent-secondary: #1ebab2; // Light teal
+$accent-tertiary: #e9f8f8; // Bright teal
 
 // ===== FUNCTIONAL COLORS =====
-$success: #1A9D6E; // Green
-$warning: #C69812; // Yellow/Orange
-$error: #ED4C5E; // Red
-$info: #3B85E8; // Blue
+$success: #1a9d6e; // Green
+$warning: #c69812; // Yellow/Orange
+$error: #ed4c5e; // Red
+$info: #3b85e8; // Blue
 
 // ===== EXTENDED PALETTE =====
 $purple-100: #8745db;
 $purple-80: #9959ff;
 $purple-60: #3b57db;
 $purple-40: #3642bf;
-
 $pink-100: #e669cc;
 $pink-80: #f275d9;
-
 $yellow-100: #faba05;
 $yellow-80: #c79912;
 $yellow-60: #e3ad12;
-
 $blue-100: #3b85e8;
 $blue-80: #4f99ff;
 
 // ===== BACKGROUND COLORS =====
-$bg-primary: #ffffff;
+$bg-primary: #fff;
 $bg-secondary: #f5f7fa;
 $bg-tertiary: #e6e9f2;
 $bg-accent-teal: #e8f7f7;
-$bg-accent-blue: #EAF1FB;
-$bg-accent-yellow: #FEF3D2;
+$bg-accent-blue: #eaf1fb;
+$bg-accent-yellow: #fef3d2;
 $bg-accent-purple: #f2c9ff;
 $bg-accent-pink: #fce6f7;
-$bg-accent-green: #E8F5D9;
-$bg-accent-red: #FFE9E9;
+$bg-accent-green: #e8f5d9;
+$bg-accent-red: #ffe9e9;
 $bg-accent-light-blue: #e0f2ff;
 $bg-accent-light-purple: #f2ebff;
 $bg-accent-light-yellow: #f9bb06;
 
 // ===== TEXT COLORS =====
-$text-primary: #7A8395;
-$text-secondary: #010E27;
-$text-tertiary: #3E485B;
+$text-primary: #7a8395;
+$text-secondary: #010e27;
+$text-tertiary: #3e485b;
 $text-light: #b0b5bf;
-$text-white: #ffffff;
+$text-white: #fff;
 
 // ===== UTILITY COLORS =====
 $gray-100: #141717; // Very dark gray

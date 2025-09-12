@@ -1,5 +1,2 @@
-export interface TJWT {
-  access: string;
-  refresh: string;
-  result?: string;
-}
+// Export types from RESTClient
+export * from './RESTClient/types';

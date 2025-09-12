@@ -1,10 +1,5 @@
 import RESTClient from './RESTClient/RESTClient';
 
-const client = new RESTClient(
-  `${String(process.env.REACT_APP_GLAMP_API_URL)}`,
-  'glampKey',
-  'v1',
-  '/auth'
-);
+const client = new RESTClient();
 
 export default client;

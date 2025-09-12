@@ -1,0 +1,110 @@
+[
+  {
+    "id": "signal-7",
+    "date": "2025-04-02T08:45:00Z", 
+    "image": "/icons/frame2.svg",
+    "actionType": "roleChange",
+    "auto": false,
+    "title": "<span class='user-name'>Mike Brown</span> changed role from Junior to Senior at InLabs",
+    "additionalInfo": null
+  },
+  {
+    "id": "signal-2",
+    "date": "2025-04-02T10:25:00Z",
+    "image": "/icons/frame.svg",
+    "actionType": "companyChange",
+    "auto": true,
+    "title": "<span class='user-name'>Robert Smith</span> changed company from TechCorp to WeRoad",
+    "additionalInfo": "In sequence"
+  },
+  {
+    "id": "signal-12",
+    "date": "2025-04-01T16:10:00Z",
+    "image": "/icons/frame3.svg", 
+    "actionType": "websiteView",
+    "auto": true,
+    "title": "<span class='user-name'>Emma Davis</span> viewed <span class='page-count'>15 pages</span> on your website from StartupHub",
+    "additionalInfo": "In sequence"
+  },
+  {
+    "id": "signal-5", 
+    "date": "2025-04-02T09:10:00Z",
+    "image": "/icons/frame1.svg",
+    "actionType": "companyChange",
+    "auto": true,
+    "title": "<span class='user-name'>Sarah Johnson</span> changed company from StartupCorp to TechStart",
+    "additionalInfo": "In sequence"
+  },
+  {
+    "id": "signal-1",
+    "date": "2025-04-02T10:30:00Z",
+    "image": "/icons/frame.svg",
+    "actionType": "roleChange",
+    "auto": true,
+    "title": "<span class='user-name'>Robert Smith</span> changed role from SDR to Senior SDR at WeRoad",
+    "additionalInfo": "In sequence"
+  },
+  {
+    "id": "signal-9",
+    "date": "2025-04-02T08:35:00Z", 
+    "image": "/icons/frame2.svg",
+    "actionType": "websiteView",
+    "auto": true,
+    "title": "<span class='user-name'>Mike Brown</span> viewed <span class='page-count'>12 pages</span> on your website from Innovation Labs",
+    "additionalInfo": "In sequence"
+  },
+  {
+    "id": "signal-4", 
+    "date": "2025-04-02T09:15:00Z",
+    "image": "/icons/frame1.svg",
+    "actionType": "roleChange",
+    "auto": false,
+    "title": "<span class='user-name'>Sarah Johnson</span> changed role from  Manager to Senior Manager at TechStart",
+    "additionalInfo": null
+  },
+  {
+    "id": "signal-11",
+    "date": "2025-04-01T16:15:00Z",
+    "image": "/icons/frame3.svg", 
+    "actionType": "companyChange",
+    "auto": false,
+    "title": "<span class='user-name'>Emma Davis</span> changed company from OldCorp to StartupHub",
+    "additionalInfo": null
+  },
+  {
+    "id": "signal-3",
+    "date": "2025-04-02T10:20:00Z",
+    "image": "/icons/frame.svg",
+    "actionType": "websiteView",
+    "auto": true,
+    "title": "<span class='user-name'>Robert Smith</span> viewed <span class='page-count'>8 pages</span> on your website from WeRoad",
+    "additionalInfo": "In sequence"
+  },
+  {
+    "id": "signal-6",
+    "date": "2025-04-02T09:05:00Z",
+    "image": "/icons/frame1.svg", 
+    "actionType": "websiteView",
+    "auto": true,
+    "title": "<span class='user-name'>Sarah Johnson</span> viewed <span class='page-count'>5 pages</span> on your website from TechStart",
+    "additionalInfo": "In sequence"
+  },
+  {
+    "id": "signal-10",
+    "date": "2025-04-01T16:20:00Z",
+    "image": "/icons/frame3.svg", 
+    "actionType": "roleChange",
+    "auto": true,
+    "title": "<span class='user-name'>Emma Davis</span> changed role from Analyst to Senior Analyst at StartupHub",
+    "additionalInfo": "In sequence"
+  },
+  {
+    "id": "signal-8",
+    "date": "2025-04-02T08:40:00Z", 
+    "image": "/icons/frame2.svg",
+    "actionType": "companyChange",
+    "auto": false,
+    "title": "<span class='user-name'>Mike Brown</span> started working at Innovation Labs as Product Manager",
+    "additionalInfo": null
+  }
+]

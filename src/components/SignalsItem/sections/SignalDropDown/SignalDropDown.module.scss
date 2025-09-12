@@ -1,0 +1,61 @@
+@use 'react-responsive-tools' as *;
+
+@layer components {
+
+  .menuPaper {
+    border-radius: 16px;
+    padding: 16px;
+    border: 1px solid var(--primary-40);
+    width: 216px;
+    background-color: var(--primary-10);
+  }
+
+  .menuItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    font-size: 12px;
+
+    line-height: 16px;
+    color: var(--text-secondary);
+
+    .icon {
+      width: 24px;
+      height: 24px;
+    }
+
+    &:hover {
+      background-color: var(--accent-tertiary);
+      color: var(--accent-primary);
+      cursor: pointer;
+    }
+  }
+
+  .SignalDropDown {
+    .button {
+      background-color: var(--accent-secondary);
+      border-radius: 34px;
+      padding: 7px 13px;
+      font-weight: 500;
+      transition: all 0.2s ease;
+      font-size: 14px;
+      line-height: 18px;
+      color: var(--primary-10);
+
+      &:hover {
+        background-color: var(--accent-primary);
+      }
+
+    }
+
+
+
+  }
+
+
+}

@@ -1,0 +1,26 @@
+@use 'react-responsive-tools' as *;
+
+@layer section {
+  .OnBoarding {
+    padding: 16px 19px 30px 16px;
+
+    .tittle {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 22px;
+      color: var(--text-secondary);
+      margin-bottom: 12px;
+    }
+
+    .content {
+      >*:not(:first-child) {
+        padding-top: 16px;
+      }
+
+      >*:not(:last-child) {
+        padding-bottom: 16px;
+        border-bottom: 1px solid var(--primary-40);
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+@use 'react-responsive-tools' as *;
+
+@layer components {
+  .PerformanceItem {
+    padding: 8px;
+    position: relative;
+
+    .tooltip {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      color: var(--text-primary);
+
+      &:hover {
+        color: var(--text-tertiary);
+      }
+
+      svg {
+        width: 16px;
+        height: 16px;
+      }
+    }
+
+    .title {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      color: var(--text-tertiary);
+      margin-bottom: 8px;
+    }
+
+    .numbers {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+
+
+      .currentNumber {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+
+        .iconSvg {
+          width: 16px;
+          height: 16px;
+          color: currentColor;
+        }
+      }
+    }
+
+    .progressBar {
+      border-radius: 3px;
+    }
+  }
+}

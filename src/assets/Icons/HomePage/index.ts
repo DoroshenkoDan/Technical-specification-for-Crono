@@ -1,2 +1,12 @@
 export { default as ArrowIcon } from './Arrow';
 export { default as ErrorIcon } from './ErrorIcon';
+export { default as PipelineIcon } from './PipelineIcon';
+export { default as DealsIcon } from './DealsIcon';
+export { default as MeetingsIcon } from './MeetingsIcon';
+export { default as ActivitiesIcon } from './ActivitiesIcon';
+export { default as ContactsIcon } from './ContactsIcon';
+export { default as CompaniesIcon } from './CompaniesIcon';
+export { default as InfoIcon } from './InfoIcon';
+export { default as EditIcon } from './EditIcon';
+export { default as CompleteIcon } from './CompleteIcon';
+export { default as DeleteIcon } from './DeleteIcon';

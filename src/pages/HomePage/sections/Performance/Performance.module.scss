@@ -1,0 +1,44 @@
+@use 'react-responsive-tools' as *;
+
+@layer section {
+  .Performance {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      h2 {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 22px;
+        color: var(--text-secondary);
+        margin: 0;
+      }
+
+      a {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: var(--accent-primary);
+        text-decoration: none;
+        transition: all 0.2s ease;
+
+        &:hover {
+          color: var(--accent-secondary);
+        }
+      }
+    }
+
+    .content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+
+    }
+  }
+}
