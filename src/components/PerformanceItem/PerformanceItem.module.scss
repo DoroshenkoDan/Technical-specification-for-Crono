@@ -38,7 +38,6 @@
       align-items: center;
       flex-direction: row;
 
-
       .currentNumber {
         display: flex;
         align-items: center;
@@ -47,7 +46,7 @@
         .iconSvg {
           width: 16px;
           height: 16px;
-          color: currentColor;
+          color: currentcolor;
         }
       }
     }

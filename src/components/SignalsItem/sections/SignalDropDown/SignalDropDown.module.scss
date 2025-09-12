@@ -1,7 +1,6 @@
 @use 'react-responsive-tools' as *;
 
 @layer components {
-
   .menuPaper {
     border-radius: 16px;
     padding: 16px;
@@ -20,7 +19,6 @@
     font-weight: 500;
     transition: all 0.2s ease;
     font-size: 12px;
-
     line-height: 16px;
     color: var(--text-secondary);
 
@@ -50,12 +48,6 @@
       &:hover {
         background-color: var(--accent-primary);
       }
-
     }
-
-
-
   }
-
-
 }
