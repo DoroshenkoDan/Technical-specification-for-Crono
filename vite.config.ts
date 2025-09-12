@@ -66,7 +66,7 @@ export default defineConfig(({ mode }) => {
     },
     build: {
       target: 'es2020',
-      outDir: path.resolve(__dirname, './build'),
+      outDir: path.resolve(__dirname, './dist'),
       assetsDir: 'assets',
       rollupOptions: {
         output: {
