@@ -47,7 +47,7 @@
     }
 
     .contentWrapper {
-      max-height: 324px;
+      max-height: calc(100vh - 426px);
       overflow: auto;
 
       > *:not(:first-child) {
