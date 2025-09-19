@@ -43,6 +43,8 @@
   --error: #{$error}; // #ED4C5E
   --info: #{$info}; // #3B85E8
   --success: #{$success}; // #1A9D6E
+  --role: #{$role}; // #8846DC
+  --view: #{$view}; // #E769CB
 
   // Background accent colors
   --bg-accent-teal: #{$bg-accent-teal}; // #e8f7f7
@@ -56,5 +58,4 @@
   --bg-accent-red: #{$bg-accent-red}; // #FFE9E9
 }
 
-@mixin Dark {
-}
+@mixin Dark {}

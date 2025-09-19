@@ -2,7 +2,7 @@
 
 @layer components {
   .Sales {
-    padding: 12px 4px;
+    padding: 4px 12px;
     display: flex;
     flex-direction: row;
     gap: 8px;
@@ -13,6 +13,18 @@
       width: 32px;
       height: 32px;
       background-color: var(--bg-accent-light-blue);
+    }
+
+    .text {
+
+      p:first-of-type {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: var(--text-secondary);
+        margin: 0;
+        text-wrap: nowrap;
+      }
     }
   }
 }

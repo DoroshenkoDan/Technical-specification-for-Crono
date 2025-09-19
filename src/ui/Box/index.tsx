@@ -12,7 +12,6 @@ const StyledBox = styled(MuiBox)<CustomBoxProps>(({ variant }) => {
       borderRadius: '16px',
       backgroundColor: 'var(--bg-primary)',
       border: '1px solid var(--primary-40)',
-      boxShadow: '0 2px 8px rgba(0, 0, 0, 0.1)',
     },
     outlined: {
       border: '2px solid var(--primary-60)',

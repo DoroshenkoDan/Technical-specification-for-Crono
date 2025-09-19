@@ -39,7 +39,6 @@ export const light = createTheme({
           font-family: Poppins, sans-serif;
           font-size: 14px;
           color: var(--text);
-          overscroll-behavior: none;
           background-color: var(--bg-secondary);
         }
         

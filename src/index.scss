@@ -36,28 +36,13 @@
     -ms-overflow-style: none;
 
     /* Firefox */
-    scrollbar-width: none;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: EuclidCircularA, sans-serif;
-    color: var(--text);
+    // scrollbar-width: none;
   }
 
   /* Hide scrollbar for Chrome, Safari and Opera */
-  *::-webkit-scrollbar {
-    display: none;
-  }
-
-  .contentWrapper::-webkit-scrollbar,
-  .scrollContent::-webkit-scrollbar {
-    display: block !important;
-  }
+  // *::-webkit-scrollbar {
+  //   display: none;
+  // }
 
   /* Preserve scrolling functionality */
   html,

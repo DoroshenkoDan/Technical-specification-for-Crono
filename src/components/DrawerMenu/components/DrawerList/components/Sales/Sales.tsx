@@ -20,7 +20,7 @@ export default function Sales({ className = '' }: Props) {
       <Avatar className={s.avatar}>
         <FlashIcon />
       </Avatar>
-      <div>
+      <div className={s.text}>
         <p>William Robertson</p>
         <p>Sales</p>
       </div>

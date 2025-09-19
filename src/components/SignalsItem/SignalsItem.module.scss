@@ -54,15 +54,15 @@
 
     // Classes for different event types
     .roleChange {
-      color: #3b85e8; // blue
+      color: var(--role); // purple
     }
 
     .companyChange {
-      color: #1a9d6e; // green
+      color: var(--info); // blue
     }
 
     .websiteView {
-      color: #f376d8; // pink
+      color: var(--view); // pink
     }
 
     .defaultAction {

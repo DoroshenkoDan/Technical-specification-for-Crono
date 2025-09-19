@@ -25,7 +25,7 @@ export default function DrawerList({ className = '' }: Props) {
   const location = useLocation();
 
   return (
-    <Box sx={{ width: 192 }} className={cn(s.DrawerList, className)}>
+    <Box className={cn(s.DrawerList, className)}>
       <Button className={s.logoButton}>
         <img src='/icons/Crono_Logo.svg' alt='Menu' />
         <div className={s.arrowWrapper}>

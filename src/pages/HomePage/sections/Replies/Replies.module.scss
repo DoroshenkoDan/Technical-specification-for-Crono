@@ -63,9 +63,12 @@
     }
 
     .avatar {
+      width: 48px;
+      height: 48px;
       background-color: var(--accent-quaternary);
 
       svg {
+
         color: var(--accent-primary);
       }
     }
